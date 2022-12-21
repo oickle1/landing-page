@@ -121,3 +121,19 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
 }
+
+/* Below is CSS for QUOTE content */
+
+/* Below is CSS for CALL TO ACTION content */
+
+/* Below is CSS for FOOTER content */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px;
+    justify-content: center;
+    align-items: center;
+}
