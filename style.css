@@ -3,13 +3,40 @@
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* removed border, added cursor so we know the button is working
+    and ensured there was space around the button compared to
+    the main hero text . */
+    button {
+        background-color: #3882F6;
+        color: white;
+        font-size: medium;
+        font-weight: 800;
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+/* Below is CSS for HEADER and HERO content */
+
+/* TODO: fix alignment of header and main hero content */
+
 .hero {
     display: flex;
     background-color: #1F2937;
     flex-direction: column;
+    justify-content: center;
+    padding: 0px 80px;
 }
 
-.hero.hero-content {
+.hero.container {
     display: flex;
     flex-direction: row;
 }
@@ -18,17 +45,21 @@
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-content {
+    width: 500px;
+}
+
+.hero-subtext {
+    margin-bottom: 10px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
-}
-
-a {
-    text-decoration: none;
-    padding: 20px;
 }
 
 .logo {
@@ -42,22 +73,6 @@ a {
     justify-content: flex-end;
 }
 
-/* removed border, added cursor so we know the button is working
-    and ensured there was space around the button compared to
-    the main hero text . */
-button {
-    background-color: #3882F6;
-    color: white;
-    font-size: medium;
-    font-weight: 800;
-    width: 150px;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    border: none;
-    cursor: pointer;
-}
-
 .hero-subtext, a {
     color: #E5E7EB;
     font-size: 18px;
@@ -65,5 +80,44 @@ button {
 
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+/* img { 
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+} */
+
+/* Below is CSS for INFORMATION content */
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.info-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.unit {
+    width: 150px;
+    padding: 20px;
+}
+
+.text {
+    color: #1F2937;
+    font-size: 16px;
+}
+
+h2 {
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: bolder;
 }
