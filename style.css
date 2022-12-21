@@ -124,6 +124,28 @@ h2 {
 
 /* Below is CSS for QUOTE content */
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section .signature {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: larger;
+    color: #1F2937;
+}
+
 /* Below is CSS for CALL TO ACTION content */
 
 /* Below is CSS for FOOTER content */
