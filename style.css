@@ -84,12 +84,10 @@ a {
     padding: 100px 0px;
 }
 
-/* img { 
-    width: 200px;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-} */
+.container img {
+    width: 400px;
+    height: 200px;
+}
 
 /* Below is CSS for INFORMATION content */
 
@@ -111,15 +109,25 @@ a {
     padding: 20px;
 }
 
-.text {
-    color: #1F2937;
+.unit .text {
+    color: #575c62;
     font-size: 16px;
+    text-align: center;
 }
 
 h2 {
     margin: 40px 0px;
     font-size: 36px;
     font-weight: bolder;
+}
+
+.info-section img {
+    border: solid blue 3px;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 15px;
 }
 
 /* Below is CSS for QUOTE content */
